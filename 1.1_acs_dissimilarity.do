@@ -5,7 +5,7 @@
 * https://nariyoo.com/stata-calculating-segregation-indices-using-seg-and-getcensus-packages/
 * ssc install seg
 * Use tract-level population data created with 0_extract_ACS_tract_population.R
-use "J:\DEPT\REUP\Projects\COVID and migration\Data\Census Tract\tract_acs_seg_index_v2.dta", clear
+use "/data/tract_acs_seg_index.dta", clear
 
 rename geoid tract
 destring tract, replace force
@@ -39,4 +39,3 @@ twoway connected white_black_dis year if year>=2017, title("Dissimilarity Index:
 * white-nonwhite dissimilarity
 format  white_nonwhite_dis %10.2g
 twoway connected white_nonwhite_dis year if year>=2017, title("Dissimilarity Index: White - Non-white (ACS 5-year data)") ytitle("Dissim. Index") note("Calculated at the census tract level in NYC") xscale(r(2017 2022)) xlabel(2017(1)2022,labsize(large)) legend(position(5)) ylabel(, labsize(large))
-

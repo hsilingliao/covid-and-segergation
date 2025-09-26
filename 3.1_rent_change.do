@@ -1,5 +1,5 @@
-********** This script create Figure 4 and examine quarterly rent changes over time
-use "\Data\streeteasy_clean.dta", replace
+********** This script create Figure 4 and examine quarterly rent changes over time.
+use "\data\streeteasy_clean.dta", replace
 
 ********* Run descriptive regression and estimate quarterly rent changes (2017q1-2022q3)
 * use 2022$$

@@ -1,4 +1,4 @@
-******* This do-file runs the racial turnover OLS and produce ***** 
+******* This do-file runs the racial turnover OLS and produces Figure 2 and Table B1**** 
 use "/data/block_turnover_by_quarter_20230106_cd.dta", clear 
 
 ***** Create additional variables needed
