@@ -29,7 +29,7 @@ Note: Scripts used to clean the Verisk and StreetEasy data are not included due 
 - Primary Land Use Tax Lot Output (PLUTO) is obtained from the New York City Open data (https://www.nyc.gov/content/planning/pages/resources/datasets/mappluto-pluto-change)
 
 ## Data availability:
-This study uses several data sources. Migration data were obtained from Verisk Analytics under a license agreement; these data are proprietary and cannot be shared publicly. Rent data were obtained from StreetEasy and are also proprietary, so we do not have permission to share them. Researchers with questions regarding data access can contact the authors at hsilingliao@uchicago.edu and amrita.kulka@warwick.ac.uk. 
+This study uses several data sources. Migration data were obtained from Verisk Analytics under a license agreement; these data are proprietary and cannot be shared publicly. Rent data were obtained from StreetEasy and are also proprietary, so we do not have permission to share them. Researchers with questions regarding data access can contact the authors at hsilingliao@uchicago.edu and amrita.kulka@warwick.ac.uk.
 
 Other datasets used in this study are publicly available. The American Community Survey can be downloaded at https://data.census.gov/
 , and the Primary Land Use Tax Lot Output (PLUTO) dataset is available from New York City Open Data at https://www.nyc.gov/content/planning/pages/resources/datasets/mappluto-pluto-change.
